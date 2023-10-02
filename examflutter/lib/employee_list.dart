@@ -24,7 +24,7 @@ class EmployeeCard extends StatelessWidget {
 
 class EmployeeManagement extends StatelessWidget {
   const EmployeeManagement({super.key});
-  static const showGrid = false;
+  static const showGrid = true;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
